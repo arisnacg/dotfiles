@@ -1,0 +1,7 @@
+[user]
+	name = Arisna
+	email = arisna@cakeplabs.com
+[credential]
+	helper = store
+[core]
+	editor = nvim
