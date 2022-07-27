@@ -29,7 +29,7 @@ vim.opt.wrap = false                            -- display lines as one long lin
 vim.opt.scrolloff = 8                           -- is one of my fav
 vim.opt.sidescrolloff = 8
 vim.opt.cursorline = true                       -- line highlight
-vim.opt.guicursor = ""                          -- cursor stay block in insert mode
+-- vim.opt.guicursor = ""                          -- cursor stay block in insert mode
 vim.opt.foldenable = false
 vim.opt.shortmess:append "c"
 

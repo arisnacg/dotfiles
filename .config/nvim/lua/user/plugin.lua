@@ -42,16 +42,23 @@ packer.init {
 return packer.startup(function(use)
   -- My plugins here
   use "wbthomason/packer.nvim" -- Have packer manage itself
+  use "tpope/vim-surround" -- Vim surround
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use 'kyazdani42/nvim-web-devicons'
   use "xiyaowong/nvim-transparent"
+  use "kyazdani42/nvim-tree.lua"
+  use 'JoosepAlviste/nvim-ts-context-commentstring'
+  use "numToStr/Comment.nvim"
+  use 'lewis6991/impatient.nvim'
+  use 'goolord/alpha-nvim'
   -- Colorscheme
   use "joshdick/onedark.vim"
-   -- LSP
+  -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "jose-elias-alvarez/null-ls.nvim" -- formatting and linting
   -- Completion
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions
