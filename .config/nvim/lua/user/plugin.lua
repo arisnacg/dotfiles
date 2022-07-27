@@ -57,6 +57,9 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-buffer" -- buffer completions
   use "hrsh7th/cmp-path" -- path completions
   use "hrsh7th/cmp-nvim-lsp" -- LSP completion
+  -- Snippets
+  use 'hrsh7th/cmp-vsnip'
+  use 'hrsh7th/vim-vsnip'
   -- Treesitter
   use {
     "nvim-treesitter/nvim-treesitter",
@@ -69,6 +72,10 @@ return packer.startup(function(use)
   use "nvim-lualine/lualine.nvim"
   -- Gitsign
   use "lewis6991/gitsigns.nvim"
+  -- Tabline
+  use "kdheepak/tabline.nvim"
+  -- Hashicorp plugins
+  use "hashivim/vim-terraform"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
