@@ -60,8 +60,8 @@ keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Copy and Cut to system clipboard
-keymap("v", "<leader>y", '"+y', opts)
-keymap("v", "<leader>d", '"+x', opts)
+keymap("v", "<c-c>", '"+y', opts)
+keymap("v", "<c-x>", '"+y', opts)
 
 -- Telescope
 -- keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", opts)
