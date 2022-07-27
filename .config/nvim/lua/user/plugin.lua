@@ -75,7 +75,7 @@ return packer.startup(function(use)
   -- Tabline
   use "kdheepak/tabline.nvim"
   -- Hashicorp plugins
-  use "hashivim/vim-terraform"
+  -- use "hashivim/vim-terraform"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

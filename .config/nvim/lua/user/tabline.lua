@@ -11,6 +11,7 @@ tabline.setup {
     show_filename_only = true,
     show_tabs_always = true,
     show_bufnr = false,
+    modified_italic = false
   }
 }
 

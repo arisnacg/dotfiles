@@ -169,11 +169,6 @@ _G.packer_plugins = {
     path = "/home/arisna/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["vim-terraform"] = {
-    loaded = true,
-    path = "/home/arisna/.local/share/nvim/site/pack/packer/start/vim-terraform",
-    url = "https://github.com/hashivim/vim-terraform"
-  },
   ["vim-vsnip"] = {
     loaded = true,
     path = "/home/arisna/.local/share/nvim/site/pack/packer/start/vim-vsnip",

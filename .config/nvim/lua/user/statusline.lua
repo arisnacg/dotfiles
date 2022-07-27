@@ -42,13 +42,15 @@ lualine.setup({
 		theme = "auto",
 		disabled_filetypes = { "alpha", "dashboard", "NvimTree", "Outline" },
 		always_divide_middle = true,
+    component_separators = { left = '|', right = '|'},
+    section_separators = { left = '', right = ''},
 	},
 	sections = {
 		lualine_a = {"mode" },
-		lualine_b = { branch},
+		lualine_b = { branch },
 		lualine_c = {},
-		lualine_x = { diff, diagnostics, "encoding"},
-		lualine_y = { filetype },
+		lualine_x = { diff, diagnostics},
+		lualine_y = { "encoding" },
 	},
 	inactive_sections = {
 		lualine_a = {},

@@ -3,7 +3,19 @@ if not status_ok then
   return
 end
 
+local ensure_installed = {
+  "lua", 
+  "python", 
+  "javascript", 
+  "dockerfile", 
+  "hcl", 
+  "json",
+  "markdown",
+  "yaml"
+}
+
 configs.setup {
+  ensure_installed = ensure_installed,
   sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
   ignore_install = { "" }, -- List of parsers to ignore installing
   autopairs = {
